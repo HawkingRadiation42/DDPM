@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Distribution / Builds
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Project Specific - Large Files & Artifacts
+sysu-shape-dataset/
+results*/
+logs/
+*.pt
+*.pth
+*.npz
+
+# Generated Images
+*.png
+!loss_plot.png
+
+# Documentation / PDFs
+*.pdf
+
+# Slurm Output (if generated in root)
+slurm-*.out
